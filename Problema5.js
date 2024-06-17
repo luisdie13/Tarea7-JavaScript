@@ -1,4 +1,4 @@
-  // Objeto persona1
+// Objeto persona1
 const persona1 = {
     nombre: "Carlos"
 };
@@ -17,4 +17,4 @@ function presentar() {
 const presentacion = presentar.apply(persona2);
 
   // Imprimir la presentación
-console.log(presentacion); // Debe imprimir: Hola, soy Ana.
+  console.log(presentacion); // Debe imprimir: Hola, soy Ana.
